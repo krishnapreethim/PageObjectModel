@@ -37,7 +37,7 @@ public class OrangeHRMLoginTest {
 		 pr.getProperty("url");
 		 driver.get("url");
 		 }
-	@Test
+	@Test(priority =1)
 	public void loginTestScript() {
 		OrangeHRMLogin login= new OrangeHRMLogin(driver);
 		String username=pr.getProperty("username");
